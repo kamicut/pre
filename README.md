@@ -1,2 +1,2 @@
-# <pre>
+# pre
 A collaborative markdown editor
