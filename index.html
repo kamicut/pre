@@ -3,5 +3,10 @@
 </head>
 
 <body>
-  {{> sharejsText docid=docid id='editor'}}
+  <section class="write">
+    <div class='wrap-editor'>
+      {{> sharejsText docid=docid id='editor'}}
+    </div>
+  </section>
+  <section class="read" id="rendered"></section>
 </body>
